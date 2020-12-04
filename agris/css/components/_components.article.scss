@@ -1,0 +1,27 @@
+.c-article{
+    margin-bottom: 3rem;
+    img{
+        padding: 8px 10px 10px 10px;
+        height: 120px;
+        width: 120px;
+    }
+    .c-article__link{
+    text-decoration: none;
+    color: rgb(58, 112, 51);
+    display: block;
+    }
+    .c-article__link:hover{
+    text-decoration: underline;
+    }
+}
+.c-articles{
+    width: 700px;
+    float: left;
+    min-height: 100px;
+    line-height: 20px;
+    position: relative;
+    margin-top: 3rem;
+}
+.c-article__desc{
+    color: rgb(156, 156, 156);
+}

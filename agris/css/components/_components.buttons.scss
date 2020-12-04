@@ -1,0 +1,39 @@
+.c-buttons {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    ul {
+        list-style-type: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        display: block;
+        height: 45px;
+        padding: 13px 0px 0px 47px;
+        margin-right: 5px;
+        text-align: left;
+        text-decoration: none;
+        color: #000000;
+        font-size: 85%;
+        font-weight: bold;
+    }
+}
+.c-price{
+    background: url(images/header_ceny.gif) no-repeat;
+    width: 170px;
+}
+.c-map{
+    background: url(images/header_mapa.gif) no-repeat; 
+    width: 170px;
+}
+.c-content{
+    background: url(images/header_addcontent.gif) no-repeat;
+    width: 170px;
+}

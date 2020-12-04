@@ -1,0 +1,45 @@
+.c-sidebar{
+    flex-direction: column;
+    width: 213px;
+    margin: 1rem 0 0 1rem;
+    background: rgb(223, 223, 223);
+    padding-bottom: 20vh;
+}
+.c-sidebar__title{
+    background: linear-gradient(to right, #18a00c, #13ce13);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    width: 100%;
+    height: 45px;
+    margin: 2rem 0;
+    text-align: center;
+    border: 1px solid;
+    padding: 5px 0;
+}
+.c-sidebar__article{
+    padding: 1.5rem;
+}
+.c-sidebar__bg{
+    background: #cecdcd;
+    display: block;
+    width: 150px;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+.c-anketa{
+    padding: 2rem;
+    list-style: none;
+}
+.c-sidebar__link{
+    color: black;
+    text-decoration: none;
+    :hover{
+        text-decoration: underline;
+    }
+}
+.c-sidebar__link--more{
+    color: rgb(139, 136, 136);
+}

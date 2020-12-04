@@ -1,0 +1,21 @@
+.c-table {
+    border-collapse: collapse;
+    font-size: 85%;
+    max-width: 100%;
+  }
+  
+  .c-table__row {
+    display: flex;
+    justify-content: space-between;
+    border-collapse: collapse;
+  }
+  
+  .c-table__row--bg {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d8f3b5;
+  }
+  
+  .c-table__cell {
+    padding: 9px 9px;
+  }
